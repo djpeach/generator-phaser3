@@ -4,6 +4,14 @@ This is another generator for Phaser 3 games. This one does not force you to use
 
 It does come with electron support (just run `npm run app`), and is ready to be built and deployed to github pages (run `npm run build`, then setup gh pages to source from `./docs`)
 
+## Installation
+
+`npm i -g yo generator-phaser3`
+
+## Usage
+
+`yo phaser3`
+
 ## Explanation
 
 ### Building the game:
