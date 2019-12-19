@@ -1,0 +1,23 @@
+{
+  "name": "generator-phaser3",
+  "version": "0.1.0",
+  "description": "Bare bones Phaser3 template with electron and github pages deployment support",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "author": {
+    "name": "Daniel Peach",
+    "email": "dpeachesdev@gmail.com",
+    "url": "https://resume.peachapps.io"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "yeoman-generator": "^4.2.0",
+    "yosay": "^2.0.2"
+  }
+}
