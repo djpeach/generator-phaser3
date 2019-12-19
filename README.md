@@ -15,6 +15,7 @@ It does come with electron support (just run `npm run app`), and is ready to be 
 Follow the prompts...
 
 ```cd <gameName>```
+
 ```npm install && npm start```
 
 
