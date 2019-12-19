@@ -6,11 +6,17 @@ It does come with electron support (just run `npm run app`), and is ready to be 
 
 ## Installation
 
-`npm i -g yo generator-phaser3`
+```npm i -g yo generator-phaser3```
 
 ## Usage
 
-`yo phaser3`
+```yo phaser3```
+
+Follow the prompts...
+
+```cd <gameName>```
+```npm install && npm start```
+
 
 ## Explanation
 
