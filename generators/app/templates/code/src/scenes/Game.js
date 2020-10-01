@@ -1,13 +1,13 @@
 import 'phaser';
 
-export default class BootScene extends Phaser.Scene {
-  constructor (key) {
+export default class GameScene extends Phaser.Scene {
+  constructor(key) {
+    super(key);
   }
 
-  init(data) {
-  }
+  init(data) {}
 
-  preload () {
+  preload() {
     this.scale.on('resize', this.resize, this);
 
     this.cursors = this.input.keyboard.addKeys({
@@ -20,13 +20,11 @@ export default class BootScene extends Phaser.Scene {
     });
   }
 
-  create () {
-  }
+  create() {}
 
-  update(time, delta) {
-  }
+  update(time, delta) {}
 
-  resize (gameSize, baseSize, displaySize, resolution) {
+  resize(gameSize, baseSize, displaySize, resolution) {
     let width = gameSize.width;
     let height = gameSize.height;
     if (width === undefined) {
@@ -37,4 +35,4 @@ export default class BootScene extends Phaser.Scene {
     }
     this.cameras.resize(width, height);
   }
-};
+}

@@ -17,6 +17,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "gulp-rename": "^2.0.0",
     "yeoman-generator": "^4.2.0",
     "yosay": "^2.0.2"
   }
